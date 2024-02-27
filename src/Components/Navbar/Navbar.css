@@ -1,0 +1,128 @@
+a {
+    text-decoration: none;
+    color: inherit; /* Change the color property to inherit */
+}
+
+
+.navbar{
+   display: flex;
+   justify-content:space-around;
+   padding: 30px 10px;
+   background-color: rgb(187, 187, 187); 
+   
+   height:1rem;
+  
+    
+}
+.imgcart{
+    width: 40px;
+}
+.nav-logo{
+    display:flex ;
+    align-items: center;
+    
+
+}
+.nav-logo p{
+    color: #111111;
+    font-size: 40px;
+    font-weight: 100;
+    font-family:"Jokerman";
+
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #111111;
+    font-size: 22px;
+    font-weight: 500;
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    font-family:Times New Roman;
+    font-weight: 20px;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+    cursor: pointer;
+    color:rgb(8, 0, 0);
+}
+.nav-menu li:hover{
+    background-color:rgb(66, 64, 67);
+    padding: 10px 5px;
+    color: white;
+
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.login button {
+    width: 100px;
+    height: 38px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 30px;
+    color: #515151;
+    font-size: 20px;
+    font-weight: 500;
+    font-family:Times New Roman;
+    background: white;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background: #3c363c;
+    color: white;
+}
+.navbar-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left:-55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 20px 5px;
+    }
+
+    .nav-logo p {
+        font-size: 30px;
+    }
+
+    .nav-menu {
+        gap: 30px;
+        font-size: 18px;
+    }
+
+    .login {
+        gap: 30px;
+    }
+
+    .login button {
+        width: 80px;
+        height: 32px;
+        font-size: 16px;
+    }
+
+    .navbar-count {
+        width: 18px;
+        height: 18px;
+        font-size: 12px;
+        margin-top: -30px;
+        margin-left: -45px;
+    }
+}
